@@ -7,7 +7,7 @@
 #>
 param([int]$Year=2023,[int]$TopPerSide=6,[string]$Ver='V202501')
 $ProgressPreference='SilentlyContinue'
-$root='C:\Toma\eu_trade_dependency'
+$root='C:\Toma\critical-materials-atlas'
 $baci="$root\raw\baci\BACI_HS22_Y${Year}_${Ver}.csv"
 $ccCsv="$root\raw\baci\country_codes_${Ver}.csv"
 
