@@ -15,7 +15,7 @@ param(
   [double]$Throttle = 1.4  # seconds between API calls
 )
 $ProgressPreference='SilentlyContinue'
-$root = 'C:\Toma\eu_trade_dependency'
+$root = 'C:\Toma\critical-materials-atlas'
 $data = Get-Content "$root\out\data.json" -Raw | ConvertFrom-Json
 
 Write-Host "Loading Comtrade code reference..."
