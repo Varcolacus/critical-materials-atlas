@@ -1,0 +1,14 @@
+---
+pid: 17740
+cwd: "C:\Toma\critical-materials-atlas"
+command: "python -c \"
+import pdfplumber
+for pat in ['2836.91','2836.92','2836.90','2836.20']:
+  for label,path in [('W26',r'C:\\Toma\\critical-materials-atlas\\tmp_W26_0202.pdf'),('W76',r'C:\\Toma\\critical-materials-atlas\\tmp_W76_0707.pdf'),('W105',r'C:\\Toma\\critical-materials-atlas\\tmp_W105_0712.pdf'),('W122',r'C:\\Toma\\critical-materials-atlas\\tmp_W122_1217.pdf')]:
+    with pdfplumber.open(path) as pdf: text='\\n'.join((p.extract_text() or '') for p in pdf.pages)
+    lines=[ln.strip() for ln in text.split('\\n') if pat in ln and ln.strip()[:1].isdigit()]
+    if lines: print(label,pat,lines[:3])
+\""
+started_at: 2026-06-29T09:34:57.409Z
+running_for_ms: 80000    
+---
