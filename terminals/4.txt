@@ -1,7 +1,0 @@
----
-pid: 26160
-cwd: "C:\Toma\critical-materials-atlas"
-command: "Set-Location C:\\Toma\\critical-materials-atlas; python tmp_hs_trace2.py"
-started_at: 2026-06-29T09:27:31.503Z
-running_for_ms: 155004   
----
