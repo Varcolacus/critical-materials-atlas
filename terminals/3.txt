@@ -1,0 +1,7 @@
+---
+pid: 26200
+cwd: "C:\Toma\critical-materials-atlas"
+command: "python C:\\Toma\\critical-materials-atlas\\tmp_hs_trace2.py"
+started_at: 2026-06-29T09:23:19.924Z
+running_for_ms: 504991   
+---
