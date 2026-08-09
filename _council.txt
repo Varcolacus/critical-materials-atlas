@@ -1,0 +1,38 @@
+No web search. Answer from your knowledge. Be brutal and specific — I want flaws, not praise. Terse.
+
+PROJECT: a free, static, reproducible "reconciled + harmonized + MONTHLY critical-materials trade
+database" — positioned as a niche-deep alternative to Trade Data Monitor (paid commercial trade-data
+aggregator). Public data only, solo-built with AI.
+
+ARCHITECTURE:
+- Modular adapters, one per source, each normalizing into ONE canonical schema (source, period,
+  reporter, partner, flow, hs6, native_code, code_level, material, value_usd, qty_kg). validate() gate.
+- 7 sources: BACI (CEPII, world, HS-6, ANNUAL, already mirror-reconciled); Eurostat Comext (EU, CN-8,
+  monthly); Brazil Comex Stat (NCM-8, monthly); UK HMRC (CN-8, monthly); US Census (HS-6, monthly);
+  UN Comtrade free preview (world, HS-6, monthly, keyless+rate-limited -> rotating, ~5 reporters so far);
+  "mirror" (China/Russia/DRC reconstructed from BACI partner reports).
+- Harmonization ("concordance"): native code -> material; splits HS-6 bundles (gallium 81129289 vs
+  germanium 81129295) via 8-digit national codes (TDM doesn't do this).
+- FX: monthly EUR/GBP->USD from ECB.
+- DECOUPLED: refresh.py runs slow pulls -> per-source cache parquet; build.py UNIONs caches -> 0.5s.
+  Query via DuckDB-WASM over parquet, client-side, no backend, $0.
+- Views: flows (raw); flows_best (de-dup: canonicalize exporter->importer, one row per flow by source
+  precedence deep>wide>mirror); flows_reconciled (THE MOAT).
+
+RECONCILIATION (flows_reconciled): for each (exporter,importer,hs6,month) where BOTH mirror sides exist
+among RAW sources (national + comtrade; NOT baci/mirror = already-reconciled/derived -> circular):
+exporter=FOB, importer=CIF. Single freight markup = median(cif/fob) over pairs with cif/fob in 0.7-1.5
+(~1.02). Both -> FOB basis. Agree within 2x -> geometric mean. Disagree >2x -> keep the LARGER + flag
+basis='disagreement' (don't average a real report to zero). Now: 91 reconciled, 108 flagged, ~11,800
+one-sided (only ~199 flows have both sides so far).
+
+Answer each <=4 lines, brutal:
+1. RECONCILIATION method vs how BACI / trade economists actually reconcile mirror data — biggest flaws?
+   (single global freight markup? geomean? the 2x cutoff? keep-larger on disagreement?)
+2. Excluding baci+mirror from reconciliation as "circular" — right call or discarding useful info?
+3. ARCHITECTURE (canonical schema + adapters + decoupled refresh/cache/build) — sound, or what's fragile
+   / breaks at scale?
+4. PRODUCT thesis (niche-deep reconciled monthly vs TDM's broad raw feed) — defensible or self-delusion?
+   Who actually uses/pays for this?
+5. The single biggest thing WRONG, MISSING, or that would embarrass me before a trade-data expert.
+6. One word on the reconciliation moat: real / marginal / fake — + the ONE highest-value fix.
