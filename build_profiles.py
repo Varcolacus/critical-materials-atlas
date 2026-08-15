@@ -473,7 +473,7 @@ def page(m):
 <meta name="description" content="{e(title)}: where it is mined, refined, traded and held in reserve. {e(deck)}">
 <meta property="og:title" content="{e(title)} — where it really comes from">
 <meta property="og:description" content="{e(deck)}">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>
@@ -543,7 +543,7 @@ def index_page():
 <title>Material profiles — Critical Materials Atlas</title>
 <meta name="description" content="A profile for each of 32 critical raw materials: mined, refined, traded, reserves, and the origin gap.">
 <meta property="og:title" content="Critical material profiles — where each really comes from">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>
@@ -651,7 +651,7 @@ def country_page(iso, rows):
 <title>{e(name)} — critical-material dependency · Critical Materials Atlas</title>
 <meta name="description" content="{e(name)}'s import dependency across {len(rows)} critical raw materials: top source, concentration, China exposure, and where the supplier is not the mine.">
 <meta property="og:title" content="{e(name)} — critical-material dependency">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>
@@ -705,7 +705,7 @@ def countries_index(items):
 <title>Country dependency profiles — Critical Materials Atlas</title>
 <meta name="description" content="Critical-material import-dependency profiles for the major importing economies.">
 <meta property="og:title" content="Critical-material dependency by country">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

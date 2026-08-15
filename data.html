@@ -4,7 +4,7 @@
 <title>Data &amp; API — Critical Materials Atlas</title>
 <meta name="description" content="The atlas's open data layer: stable JSON endpoints for reconciled bilateral trade and the mine/refine/reserve layers across 32 critical materials. Free, public, no key.">
 <meta property="og:title" content="Critical Materials Atlas — open data &amp; static API">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
@@ -42,7 +42,7 @@
       <tr><td><span class="endpoint">/out/flows_2026.json</span></td><td>Directional scenario (2025 structure, levels tilted by Q1 momentum × prices)</td></tr>
     </tbody>
   </table>
-  <p class="note">Base: <span class="endpoint">https://varcolacus.github.io/critical-materials-atlas</span>. The CSV the atlas exports (the <b>Download data</b> button, top right of the table) is the per-material metric sheet for the selected year.</p>
+  <p class="note">Base: <span class="endpoint">https://criticalmaterialsatlas.org</span>. The CSV the atlas exports (the <b>Download data</b> button, top right of the table) is the per-material metric sheet for the selected year.</p>
 
   <h2>Schema — <code>flows_&lt;year&gt;.json</code></h2>
   <pre>{
@@ -75,7 +75,7 @@
 
   <h2>Use it</h2>
   <pre>const f = await (await fetch(
-  <span class="k">'https://varcolacus.github.io/critical-materials-atlas/out/flows_2024.json'</span>)).json();
+  <span class="k">'https://criticalmaterialsatlas.org/out/flows_2024.json'</span>)).json();
 <span class="k">// top exporter of lithium, by value</span>
 const o = {}; for (const {from,value} of f.materials.lithium) o[from]=(o[from]||0)+value;
 console.log(Object.entries(o).sort((a,b)=>b[1]-a[1])[0]);   <span class="k">// → ["CL", …]</span></pre>

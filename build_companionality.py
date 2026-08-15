@@ -144,7 +144,7 @@ HTML = r'''<!doctype html>
 <title>Hostage metals — the criticals you can't just mine more of · Critical Materials Atlas</title>
 <meta name="description" content="Many critical materials are only ever by-products of a host commodity, so their supply cannot respond to their own price. This layer quantifies companionality for 32 materials and crosses it with geographic concentration to find the double-jeopardy cases.">
 <meta property="og:title" content="Hostage metals: the criticals you can't just mine more of">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

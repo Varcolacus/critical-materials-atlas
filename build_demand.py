@@ -164,7 +164,7 @@ HTML = r'''<!doctype html>
 <title>The squeeze — where surging demand meets supply that can't respond · Critical Materials Atlas</title>
 <meta name="description" content="The atlas turns to the demand side: which technologies pull hardest on each critical material, and — crossed with the supply-structure arm — which materials face surging demand AND by-product-locked supply that can't scale. The structural squeeze.">
 <meta property="og:title" content="The squeeze: surging demand meets supply that can't respond">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

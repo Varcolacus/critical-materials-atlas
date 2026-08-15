@@ -134,7 +134,7 @@ HTML = r'''<!doctype html>
 <title>Does the market show the squeeze? — a price test · Critical Materials Atlas</title>
 <meta name="description" content="A falsifiable test of the atlas's own squeeze thesis: do the by-product-locked, high-demand metals actually show it in their prices? We check the implied trade-price series 2018-2024 and report what the data says, including where it refutes a naive reading.">
 <meta property="og:title" content="Does the market already show the squeeze? A price test">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

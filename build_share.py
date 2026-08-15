@@ -44,7 +44,7 @@ BASE = '''<!doctype html><html><head><meta charset="utf-8">
 def card(n, body):
     open(os.path.join(SHARE, f'card{n}.html'), 'w', encoding='utf-8').write(BASE.replace('__BODY__', body))
 
-FOOT = '<div class="foot"><span>Critical Materials Atlas · public trade data 2018–2024</span><span class="u">varcolacus.github.io/critical-materials-atlas</span></div>'
+FOOT = '<div class="foot"><span>Critical Materials Atlas · public trade data 2018–2024</span><span class="u">criticalmaterialsatlas.org</span></div>'
 
 # ---- Card 1: the core finding ----
 n_cap = bo['summary']['by_moat']['import-fed capability'] + bo['summary']['by_moat']['by-product capability']
@@ -122,7 +122,7 @@ card(4, f'''<div class="card" style="padding:70px 96px 60px">
  <div class="eyebrow">Cut the chokepoint — where does supply go?</div>
  <div class="h" style="font-size:52px">If China&rsquo;s magnet exports stop, optimal transport<br>reroutes the world through <span class="teal">Japan, Korea &amp; SE Asia</span>.</div>
  <div style="margin:34px 0 10px">{svgtxt}</div>
- <div class="foot" style="border-top:0;padding-top:14px"><span>✕ = China cut · teal = min-distance reallocation of its {round(mg['leader_export_share']*100)}% export share</span><span class="u">varcolacus.github.io/critical-materials-atlas</span></div>
+ <div class="foot" style="border-top:0;padding-top:14px"><span>✕ = China cut · teal = min-distance reallocation of its {round(mg['leader_export_share']*100)}% export share</span><span class="u">criticalmaterialsatlas.org</span></div>
 </div>''')
 
 # ---- Card 5: leverage ----
@@ -137,7 +137,7 @@ card(5, f'''<div class="card">
 thread = f'''# X thread — Critical Materials Atlas (draft, {ot['year']} data)
 
 **1/** Everyone says "China controls critical minerals." I built a public-data atlas to ask the harder question: *so what do you actually do about it?* 32 materials, mine→refine→trade, 2018–2024. Thread 🧵
-→ varcolacus.github.io/critical-materials-atlas
+→ criticalmaterialsatlas.org
 [card1.png]
 
 **2/** The chokepoint usually isn't the mine — it's the furnace. For {n_cap} materials the dominant supplier *imports the ore and exports the refined metal*, or pulls it from a domestic by-product stream. Export controls on ORE can't touch that. Gallium: China refines 87%, and mines ~none of it.
@@ -155,7 +155,7 @@ thread = f'''# X thread — Critical Materials Atlas (draft, {ot['year']} data)
 [card5.png]
 
 **7/** It also names who *could* break each chokepoint (product-space capability-adjacency) and who's actually building alternatives (Perpetua, Almonty, Lynas, Euro Manganese…). All public data, all methods open.
-→ varcolacus.github.io/critical-materials-atlas
+→ criticalmaterialsatlas.org
 
 Images: share/card1.png … card5.png · data: out/*.json (breakout, ot, leverage)
 '''

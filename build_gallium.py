@@ -98,7 +98,7 @@ HTML = r'''<!doctype html>
 <title>Gallium, followed end to end — one metal, one mass balance · Critical Materials Atlas</title>
 <meta name="description" content="A single-metal deep dive: gallium traced physically from bauxite through alumina refining to recovery and export, with explicit bias bounds. ~94% of the gallium passing through the world's alumina refineries is discarded — supply is capped by refinery retrofits, not price. 'Can't scale', quantified.">
 <meta property="og:title" content="Gallium end to end: why 94% is thrown away, and supply can't answer price">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

@@ -142,7 +142,7 @@ HTML = r'''<!doctype html>
 <title>Net demand by bloc — stripping out the re-exports · Critical Materials Atlas</title>
 <meta name="description" content="The demand-by-bloc page conflated consumption with re-export. This nets it out: imports minus exports per bloc, so trans-shipment hubs collapse and refiner-exporters like China are revealed as net suppliers, not demanders, of the metals they process.">
 <meta property="og:title" content="Net demand by bloc: who really pulls the metal once re-exports are removed">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

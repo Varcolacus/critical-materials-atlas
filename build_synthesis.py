@@ -100,7 +100,7 @@ HTML = r'''<!doctype html>
 <title>The hardest cases — where every safeguard fails at once · Critical Materials Atlas</title>
 <meta name="description" content="Criticality isn't one number — it's a stack of independent failures: can't scale (by-product), can't diversify (concentrated), can't recycle, surging demand, and a physically tiny market. This scorecard finds the handful of materials that trip nearly all five.">
 <meta property="og:title" content="The hardest cases: metals where every safeguard fails at once">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

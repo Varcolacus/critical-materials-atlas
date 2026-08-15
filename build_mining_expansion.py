@@ -86,7 +86,7 @@ HTML = r'''<!doctype html>
 <title>Where new mining is appearing — tropical expansion 2016-2024 · Critical Materials Atlas</title>
 <meta name="description" content="A forward-looking physical signal: satellite-mapped mine-area expansion across the tropics 2016-2024 (Sepin et al. 2025), mapped onto critical-material hubs — Indonesia nickel, the lithium triangle, the Copperbelt.">
 <meta property="og:title" content="Where new mine footprint is physically appearing (2016-2024)">
-<meta property="og:image" content="https://varcolacus.github.io/critical-materials-atlas/out/share.png">
+<meta property="og:image" content="https://criticalmaterialsatlas.org/out/share.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css"><script src="assets/nav.js" defer></script>

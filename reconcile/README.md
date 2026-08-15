@@ -16,13 +16,13 @@ reconstructs the same thing from **raw UN Comtrade** — matching the two mirror
 correcting CIF/FOB, weighting reporters by reliability, and reconciling — then **validates the result
 against official BACI** and uses it to nowcast the missing recent years.
 
-Built as the trade engine behind the [critical-materials-atlas](https://varcolacus.github.io/critical-materials-atlas/)
+Built as the trade engine behind the [critical-materials-atlas](https://criticalmaterialsatlas.org/)
 (where it powers the 2025–2026 layers), but it is general — it works for any HS6 codes. Method follows
 **Gaulier & Zignago (2010)**, *BACI: International Trade Database at the Product-Level*, CEPII WP 2010-23.
 
 📄 Full technical note (method, validation, nowcast, pre-registration, origin-gap finding):
-[HTML](https://varcolacus.github.io/critical-materials-atlas/technical-note.html) ·
-[PDF](https://varcolacus.github.io/critical-materials-atlas/technical-note.pdf).
+[HTML](https://criticalmaterialsatlas.org/technical-note.html) ·
+[PDF](https://criticalmaterialsatlas.org/technical-note.pdf).
 
 ## The problem
 

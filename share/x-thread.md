@@ -1,7 +1,7 @@
 # X thread — Critical Materials Atlas (draft, 2024 data)
 
 **1/** Everyone says "China controls critical minerals." I built a public-data atlas to ask the harder question: *so what do you actually do about it?* 32 materials, mine→refine→trade, 2018–2024. Thread 🧵
-→ varcolacus.github.io/critical-materials-atlas
+→ criticalmaterialsatlas.org
 [card1.png]
 
 **2/** The chokepoint usually isn't the mine — it's the furnace. For 10 materials the dominant supplier *imports the ore and exports the refined metal*, or pulls it from a domestic by-product stream. Export controls on ORE can't touch that. Gallium: China refines 87%, and mines ~none of it.
@@ -19,6 +19,6 @@
 [card5.png]
 
 **7/** It also names who *could* break each chokepoint (product-space capability-adjacency) and who's actually building alternatives (Perpetua, Almonty, Lynas, Euro Manganese…). All public data, all methods open.
-→ varcolacus.github.io/critical-materials-atlas
+→ criticalmaterialsatlas.org
 
 Images: share/card1.png … card5.png · data: out/*.json (breakout, ot, leverage)

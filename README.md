@@ -1,6 +1,6 @@
 # Critical raw materials — mine ▸ refinery ▸ trade atlas
 
-**Live → https://varcolacus.github.io/critical-materials-atlas/**
+**Live → https://criticalmaterialsatlas.org/**
 
 A public-data atlas of **32 critical raw materials**: for each one, where it is **mined**, where it is
 **refined**, and the **real global trade** between every country pair — both directions, for any country
