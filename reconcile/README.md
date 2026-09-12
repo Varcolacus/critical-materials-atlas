@@ -1,6 +1,6 @@
 # comtrade-reconcile
 
-[![validate](https://github.com/Varcolacus/critical-materials-atlas/actions/workflows/engine-validate.yml/badge.svg)](https://github.com/Varcolacus/critical-materials-atlas/actions/workflows/engine-validate.yml)
+[![validate](https://github.com/materials-atlas/critical-materials-atlas/actions/workflows/engine-validate.yml/badge.svg)](https://github.com/materials-atlas/critical-materials-atlas/actions/workflows/engine-validate.yml)
 
 **A share-faithful reconstruction of bilateral trade from raw UN Comtrade (BACI-style) — plus a nowcast
 for the recent years BACI has not released yet.**

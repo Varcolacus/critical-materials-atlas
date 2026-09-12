@@ -163,7 +163,7 @@ PAGE = r'''<!doctype html>
   <a class="wordmark" href="./"><span class="mark"></span>Critical Materials Atlas</a>
   <nav class="topnav"><a href="./">Atlas</a><a href="methodology.html">Methodology</a><a href="findings.html">Findings</a>
   <a href="breakout.html" class="hideable">Break the chokepoint</a><a href="ot.html" class="hideable">Reallocation</a>
-  <a href="https://github.com/Varcolacus/critical-materials-atlas" class="hideable">Engine</a></nav>
+  <a href="https://github.com/materials-atlas/critical-materials-atlas" class="hideable">Engine</a></nav>
 </div></header>
 <section class="hero"><div class="wrap">
   <div class="eyebrow">Method · importer-side exposure</div>

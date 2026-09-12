@@ -146,7 +146,7 @@ def topbar(active=''):
             '<nav class="topnav">'
             f'{a("./","Atlas")}{a("methodology.html","Methodology")}{a("findings.html","Findings")}'
             f'{a("profiles.html","Profiles")}{a("technical-note.html","Note","hideable")}'
-            '<a href="https://github.com/Varcolacus/critical-materials-atlas" class="hideable">Engine</a>'
+            '<a href="https://github.com/materials-atlas/critical-materials-atlas" class="hideable">Engine</a>'
             '</nav></div></header>')
 
 FOOTER = ('<footer class="siteftr"><div class="wrap">'
@@ -557,7 +557,7 @@ def page(m):
     <a class="btn ghost" href="methodology.html">Methodology</a>
   </div>
   <p class="note">Every figure on this page is computed from <a href="out/data.json">out/data.json</a> and
-  <a href="out/flows_{YEAR}.json">out/flows_{YEAR}.json</a> by <a href="https://github.com/Varcolacus/critical-materials-atlas/blob/main/build_profiles.py">build_profiles.py</a> — no hand-entered numbers.</p>
+  <a href="out/flows_{YEAR}.json">out/flows_{YEAR}.json</a> by <a href="https://github.com/materials-atlas/critical-materials-atlas/blob/main/build_profiles.py">build_profiles.py</a> — no hand-entered numbers.</p>
 </article>
 {FOOTER}
 </body></html>'''
